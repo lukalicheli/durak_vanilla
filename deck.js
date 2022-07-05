@@ -24,4 +24,10 @@ let newDeck = createDeck();
 shuffleDeck(newDeck); 
 console.log(newDeck);
 
-let newHand = newDeck.splice(0,6)
+let newHand1 = newDeck.splice(0,6);
+console.log(newHand1);
+console.log(newDeck);
+
+let newHand2 = newDeck.splice(0,6);
+console.log(newDeck);
+console.log(newHand2);
