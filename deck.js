@@ -1,5 +1,5 @@
 function createDeck() {
-    let suits = ['H', 'C', 'D', 'S'];
+    let suits = ['♥', '♣', '♦', '♤'];
     let ranks = ['6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A'];
     let deck = [];
 
